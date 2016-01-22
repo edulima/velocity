@@ -1,4 +1,4 @@
-site_name: Velocity Case Tracker
+site_name: Velocity Case Tracker Documentation
 site_url: http://www.mkdocs.org
 site_description: Project documentation with Markdown.
 site_author: Tom Christie & Dougal Matthews
@@ -7,16 +7,7 @@ repo_url: https://github.com/mkdocs/mkdocs/
 
 pages:
 - Home: index.md
-- User Guide:
-    - Writing Your Docs: user-guide/writing-your-docs.md
-    - Styling Your Docs: user-guide/styling-your-docs.md
-    - Configuration: user-guide/configuration.md
-    - Deploying Your Docs: user-guide/deploying-your-docs.md
-    - Custom Themes: user-guide/custom-themes.md
-- About:
-    - Release Notes: about/release-notes.md
-    - Contributing: about/contributing.md
-    - License: about/license.md
+- About: about/about.md
 
 markdown_extensions:
     - toc:
@@ -25,3 +16,5 @@ markdown_extensions:
 
 copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
 google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+theme: readthedocs

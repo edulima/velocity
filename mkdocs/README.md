@@ -20,11 +20,9 @@ MkDocs supports Python 2.6, 2.7, 3.3 and 3.4.
 Getting started is super easy.
 
 ```bash
-cd mkdocs
-
-
+$ cd mkdocs
 $ mkdocs serve
 
-Running at: http://127.0.0.1:8000/
+The app should be running at: http://127.0.0.1:8000/
 ```
 
